@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>Task-9</title>
+        <style>
+            *{
+                margin: 0px;
+                margin-top: 10px;
+            }
+            #main{
+                display: grid;
+                grid-template-areas: 
+                'x y y y';
+            }
+            #x a{
+                position: absolute;
+                margin-left: -100px;
+                transition: 0.4s;
+                padding: 15px;
+                width: 120px; 
+                text-decoration: none;
+                font-size: 20px;
+                color: white;
+                border-top-right-radius: 5px;
+                border-bottom-right-radius: 5px;
+            }
+            #x a:hover{
+                margin-left: 0px;
+            }
+            #html{
+                margin-top: 10px;
+                background-color: rgb(0, 179, 69);
+            }
+
+            #css{
+                margin-top: 70px;
+                background-color: rgb(50, 156, 255); /* Blue */
+            }
+
+            #bootstrap{
+                margin-top: 130px;
+                background-color: rgb(251, 56, 56); /* Red */
+            }
+
+            #javascript{
+                margin-top: 190px;
+                background-color: rgb(111, 111, 111);
+            }
+        </style>
+    </head>
+    <body>
+        <div id="main">
+            <div id="x">
+                <a href="" id="html">HTML</a>
+                <a href="" id="css">CSS</a>
+                <a href="" id="bootstrap">Bootstrap</a>
+                <a href="" id="javascript">Javascript</a>
+            </div>
+            <div id="y" style="position: fixed; margin-left: 200px;">
+                <h1>Hoverable Sidenav Buttons</h1>
+                <br><br>
+                <p>Hover over the buttons in the left side navigation to open them.</p>
+            </div>
+        </div>
+    </body>
+</html>

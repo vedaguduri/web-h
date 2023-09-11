@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <title>Task-12</title>
+        <style>
+            body{
+                background-color: #a22b55;
+            }
+            table{
+                border-collapse: separate;
+                border-spacing: 15px;
+                background-color: #75203f;
+                color: white;
+                padding-left: 50px;
+                padding-right: 50px;
+                margin: 20px;
+            }
+            ::placeholder{
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            #button{
+                width: 100%; 
+                height: 40px; 
+                border-radius: 10px;
+                font-weight: bold;
+                font-size: 20px;
+                border: 0;
+            }
+            select{
+                height: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <center>
+                <table>
+                    <tr>
+                        <td><label for="fn">Name:</label></td>
+                        <td><input type="text" name="fn" placeholder="your name"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="em">Email:</label></td>
+                        <td><input type="email" name="em" placeholder="your email"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="pw">Password:</label></td>
+                        <td><input type="password" name="pw"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="pn">Phone Number:</label></td>
+                        <td><input type="number" name="pn"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="gender">Gender:</label></td>
+                        <td>
+                            Male:<input type="radio" name="gender">
+                            Female:<input type="radio" name="gender">
+                            Other:<input type="radio" name="gender">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="language">language</label></td>
+                        <td>
+                            <select name="language">
+                                <option>Select language</option>
+                                <option>English</option>
+                                <option>Hindi</option>
+                                <option>Spanish</option>
+                                <option>Telugu</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="zipcode">Zip Code:</label></td>
+                        <td><input type="number" name="zipcode"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="about">About:</label></td>
+                        <td><textarea name="about" rows="2" placeholder="Write about yourself..."></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <button id="button">Register</button>
+                        </td>
+                    </tr>
+                </table>
+            </center>
+        </form>
+    </body>
+</html>

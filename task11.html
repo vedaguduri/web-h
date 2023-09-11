@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <title>Task-11</title>
+        <style>
+            img{
+                border-radius: 50%;
+                width: 300px;
+            }
+            .y{
+                width: 400px;
+                height: 30px;
+            }
+            .x{
+                text-align: left;
+            }
+            #sub{
+                width: 400px;
+                height: 30px;
+                color: white;
+                background-color: rgb(107, 204, 80);
+                border: 0px;
+            }
+            #sub:hover{
+                background-color: rgb(91, 175, 67);
+                cursor: pointer;
+            }
+            table{
+                border-collapse: separate;
+                border-spacing: 0 15px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            button{
+                height: 30px;
+                border-radius: 5px;
+                border: 0px;
+                background-color: red;
+                color: white;
+                cursor: pointer;
+                width: 70px;
+            }
+            button:hover{
+                background-color: rgb(211, 0, 0);
+            }
+            #footer{
+                background-color: gainsboro;
+            }
+            span{
+                margin-left: 52%;
+                color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <table>
+                <tr>
+                    <td><center><img src="./task11.png"></center></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="name" style="font-weight: bold;" class="x">Username</label><br>
+                        <input type="text" name="name" placeholder="Enter Username" class="y">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pass" style="font-weight: bold;" class="x">Password</label><br>
+                        <input type="password" name="pass" placeholder="Enter Password" class="y">
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="login" id="sub"></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"> Remember me</td>
+                </tr>
+                <tr>
+                    <td id="footer">
+                        <br>
+                        <button type="reset">Cancel</button>
+                        <a href=""><span>Forgot password?</span></a>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
